@@ -1,0 +1,450 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url('0.png');
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.FirstHeadingComponent{
+    min-width: 80%;
+    max-width: 80%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 4%;
+}
+.FirstHeadingName{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: nowrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-size: 23px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.FirstHeadingMenus{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: nowrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-size: 18px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.FirstHeadingButton{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: nowrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-size: 18px;
+    padding: 10px 36px;
+    text-decoration: none;
+    border-radius: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+    color: white;
+    margin: 0;
+    background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.6),
+    rgba(233, 233, 233, 0.1)
+  );
+}
+
+.FirstHeadingButton:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+.SecondHeadingComponent{
+    min-width: 50%;
+    max-width: 50%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 5%;
+}
+.SecondHeadingName{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: nowrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    padding-bottom: 3%;
+    overflow-x: hidden;
+    font-size: 51px;
+    font-weight: 600;
+    color: white;
+}
+.SecondHeadingMenus{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    padding-bottom: 5%;
+    text-align: center;
+    overflow-x: hidden;
+    font-size: 18px;
+    color: white;
+}
+.SecondButtonsContainer{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SecondHeadingButton{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: nowrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-size: 18px;
+    padding: 10px 36px;
+    text-decoration: none;
+    border-radius: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+    color: white;
+    margin: 0 30px;
+    background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.6),
+    rgba(233, 233, 233, 0.1)
+  );
+}
+.SecondDeveloperButton{
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+.RightArrowImage{
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    padding-left: 10px;
+}
+.RightArrowImage img{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.SecondHeadingMenus2{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    text-align: center;
+    overflow-x: hidden;
+    font-size: 18px;
+    color: white;
+}
+.ThirdBodyComponent{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4%;
+}
+.ThirdMainImageWrapper{
+    padding-left: 25%;
+    padding-right: 25%;
+    min-width: 50%;
+    max-width: 50%;
+    overflow-x: hidden;
+    padding: 30px;
+    border-radius: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.6),
+    rgba(233, 233, 233, 0.1)
+  );
+}
+.ThirdBodyGlossyImage{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    border-radius: 20px;
+    background-color: black;
+    background-image: url('Screenshot (23).png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 500px;
+    max-height: 500px;
+}
+.ThirdFirstImageWrapper{
+    top: 0;
+    left: 0;
+    margin-top: 310px;
+    margin-left: 150px;
+    position: absolute;
+    min-width: 19%;
+    max-width: 19%;
+    overflow-x: hidden;
+    padding: 10px;
+    border-radius: 20px;
+    transform: rotate(20deg);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.6),
+    rgba(233, 233, 233, 0.1)
+  );
+}
+.ThirdFirstGlossyImage{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    border-radius: 20px;
+    background-color: black;
+    background-image: url('Illustration2.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 300px;
+    max-height: 300px;
+}
+.ThirdSecondImageWrapper{
+    top: 0;
+    right: 0;
+    margin-top: 310px;
+    margin-right: 150px;
+    position: absolute;
+    min-width: 19%;
+    max-width: 19%;
+    overflow-x: hidden;
+    padding: 10px;
+    border-radius: 20px;
+    transform: rotate(10deg);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.6),
+    rgba(233, 233, 233, 0.1)
+  );
+}
+.ThirdSecondGlossyImage{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    border-radius: 20px;
+    background-color: black;
+    background-image: url('Illustration4.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 300px;
+    max-height: 300px;
+}
+.ThirdThirdImageWrapper{
+    top: 0;
+    left: 0;
+    margin-top: 800px;
+    margin-left: 90px;
+    position: absolute;
+    min-width: 19%;
+    max-width: 19%;
+    overflow-x: hidden;
+    padding: 10px;
+    border-radius: 20px;
+    transform: rotate(335deg);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.6),
+    rgba(233, 233, 233, 0.1)
+  );
+}
+.ThirdThirdGlossyImage{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    border-radius: 20px;
+    background-color: black;
+    background-image: url('Illustration1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 300px;
+    max-height: 300px;
+}
+.ThirdFourthImageWrapper{
+    top: 0;
+    right: 0;
+    margin-top: 800px;
+    margin-right: 90px;
+    position: absolute;
+    min-width: 19%;
+    max-width: 19%;
+    overflow-x: hidden;
+    padding: 10px;
+    border-radius: 20px;
+    transform: rotate(25deg);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.6),
+    rgba(233, 233, 233, 0.1)
+  );
+}
+.ThirdFourthGlossyImage{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    border-radius: 20px;
+    background-color: black;
+    background-image: url('Illustration3.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 300px;
+    max-height: 300px;
+}
+.FourthBodyComponent{
+    min-width: 80%;
+    max-width: 80%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 4%;
+}
+.FourthForWhomContainer{
+    min-width: 25%;
+    max-width: 25%;
+    overflow-x: hidden;
+    padding: 4% 3%;
+    border-radius: 20px;
+    border-top: 2px solid rgba(255, 255, 255, 0.15);
+    border-left: 2px solid rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.15),
+    rgba(233, 233, 233, 0.05)
+  );
+}
+.FourthForWhomComponent{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8%;
+}
+.FourthForWhomParagraph{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-size: 15px;
+    color: white;
+}
+.FourthForWhomComponent p{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+}
+.FourthRightArrowImage{
+    min-width: 29px;
+    max-width: 29px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(320deg);
+    background-color: rgba(255, 255, 255, 0.22);
+    border-radius: 100px;
+}
+.FourthRightArrowImage img{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
